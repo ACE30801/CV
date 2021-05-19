@@ -1,95 +1,99 @@
-<html>
-    <head>
-        <title>CV</title>
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            body{
-                background-color: rgb(14, 92, 87);
-            }
-            a{
-                text-decoration: none;
-                color: rgb(220, 69, 69);
-            }
-            h1{
-                text-align: center;
-                 font-size: 250%;
-            }
-            body{
-                counter-reset: contents;
-            }
-            .content::before{
-                counter-increment: contents;
-                content: counter(contents) ". ";
-            }
-            img{
-                width: 50px;
-                height: 50px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>CV</h1>
-        
-        <div style="text-align: center;">
-        <img src="me.jpg" alt="my photo"  title="my friend's drawing"  title="i'll be watching"
-        style="width: 20%; height: auto;"
-        >
-        </div>
-        
-        <h1>Table of Contents</h1>
-        <a href="#career" title="go to career goals">
-            <p class="content">
-                career goals
-            </p>
-        </a>
-        <a href="#skills" title="go to skills">
-            <p class="content">
-                skills
-            </p>    
-        </a>
-        <a href="#contact" title="go to contact info">
-            <p class="content">
-                contact info
-            </p>    
-        </a>
-        
-        <div id="career">
-        <h1>career goals </h1>
-        <p>The main goals of the next five years are:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(14, 92, 87);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(220, 69, 69);
+        }
+        h1{
+            text-align: center;
+             font-size: 250%;
+        }
+        body{
+            counter-reset: contents;
+        }
+        .content::before{
+            counter-increment: contents;
+            content: counter(contents) ". ";
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CV</h1>
+    
+    <div style="text-align: center;">
+    <img src="me.jpg" alt="my photo"  title="my friend's drawing"  title="i'll be watching"
+    style="width: 20%; height: auto;"
+    >
+    </div>
+    
+    <h1>Table of Contents</h1>
+    <a href="#career" title="go to career goals">
+        <p class="content">
+            career goals
+        </p>
+    </a>
+    <a href="#skills" title="go to skills">
+        <p class="content">
+            skills
+        </p>    
+    </a>
+    <a href="#contact" title="go to contact info">
+        <p class="content">
+            contact info
+        </p>    
+    </a>
+    
+    <div id="career">
+    <h1>career goals </h1>
+    <p>The main goals of the next five years are:</p>
+    <ul>
+        <li>Having the bachelor degree in communication and electronics </li>
+        <li>Determining the field that is more suitable for me</li>
+        <li>Having the required courses to be more experienced in the chosen field</li>
+        <li>Having some field experiene by having a training</li>
+    </ul>
+    </div>
+
+    <div id="skills">
+        <h1>Skills</h1>
         <ul>
-            <li>Having the bachelor degree in communication and electronics </li>
-            <li>Determining the field that is more suitable for me</li>
-            <li>Having the required courses to be more experienced in the chosen field</li>
-            <li>Having some field experiene by having a training</li>
+            <li >moderate english skills</li>
+            <li >moderate programming skills in C language</li>
+            <li >little HTML and CSS writing skills</li>
         </ul>
-        </div>
+    </div>
 
-        <div id="skills">
-            <h1>Skills</h1>
-            <ul>
-                <li >moderate english skills</li>
-                <li >moderate programming skills in C language</li>
-                <li >little HTML and CSS writing skills</li>
-            </ul>
-        </div>
-
-        <div id="contact">
-            <h2>contact info</h2>
-            <a href="https://www.facebook.com/profile.php?id=100008510432581" target="_blank">
-            <img src="facebook logo.png" alt="facebook logo" title="click to open my facebook page">
+    <div id="contact">
+        <h2>contact info</h2>
+        <a href="https://www.facebook.com/profile.php?id=100008510432581" target="_blank">
+        <img src="facebook logo.png" alt="facebook logo" title="click to open my facebook page">
+    </a>
+    
+    <a href="https://github.com/ACE30801" target="_blank">
+        <img src="github icon.png" alt="github icon">
+    </a>
+    <div>
+        <p>send me an e-mail</p>
+        <a href="mailto: elshaer118@gmail.com" target="_blank">
+            <img src="gmail.png" alt="gmail icon" title="send me email">
         </a>
-        
-        <a href="https://github.com/ACE30801" target="_blank">
-            <img src="github icon.png" alt="github icon">
-        </a>
-        <div>
-            <p>send me an e-mail</p>
-            <a href="mailto: elshaer118@gmail.com" target="_blank">
-                <img src="gmail.png" alt="gmail icon" title="send me email">
-            </a>
-        </div>
-        </div>
-    </body>
+    </div>
+    </div>
+</body>
 </html>
