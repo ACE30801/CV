@@ -35,7 +35,35 @@
             width: 20%;
              height: auto;
         }
+        .bt{
+            background-color: white;
+            color: teal;
+            font-size: 20px;
+            border: teal solid 1px;
+            border-radius: 10px;
+            width: 210px;
+        }
+        .bt:hover{background-color: rgb(4, 165, 165);}
+        .d1{
+            position: relative;
+            display: block;
+        }
+        .d2{
+            position: absolute;
+            display: none;
+            background-color: tomato;
+            width: 200px;
+
+        }
+        .d1:hover .d2{display: block;}
         @media screen and (max-width: 500px) {
+            
+            body{
+                font-size: 10px;
+            }
+            h1{
+             font-size: 150%;
+        }
             .me{
                 width: 50%; height: auto;
             }
@@ -90,6 +118,14 @@
 
     <div id="contact">
         <h2>contact info</h2>
+        <div class="d1">
+            <button class="bt">contact info</button>
+            <div class="d2">
+                <p>phone number</p>
+                <p>e-mail address</p>
+                <p><address>address</address></p>
+            </div>
+          </div>
         <a href="https://www.facebook.com/profile.php?id=100008510432581" target="_blank">
         <img src="facebook logo.png" alt="facebook logo" title="click to open my facebook page">
     </a>
