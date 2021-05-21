@@ -83,25 +83,31 @@ img{
 @media screen and (max-width: 500px) {
     
     body{
-        font-size: 10px;
+        font-size: 16px;
     }
     h1{
-     font-size: 150%;
+     font-size: 180%;
     }
     h2{
-    font-size: 120%;
+    font-size: 140%;
     }
     h3{
-        font-size: 100%;
+        font-size: 120%;
+    }
+    .flex0{
+        width: 30%;
+    }
+    .flex00{
+        width: 70%;
     }
     .pp{
-        font-size: 90%;
+        font-size: 110%;
     }
     p{
-        font-size: 70%;
+        font-size: 90%;
     }
     .me{
-        width: 50%; height: auto;
+        width: 100%; height: auto;
     }
     .d2{
         width: 100px;
