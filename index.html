@@ -5,116 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        body{
-            background-color: rgb(14, 92, 87);
-            color: white;
-        }
-        a{
-            text-decoration: none;
-            color: rgb(220, 69, 69);
-        }
-        h1{
-            text-align: center;
-             font-size: 250%;
-        }
-        h3{
-            text-align: center;
-             font-size: 180%;
-        }
-        .pp{
-            font-size: 150%;
-        }
-        body{
-            counter-reset: contents;
-        }
-        .content::before{
-            counter-increment: contents;
-            content: counter(contents) ". ";
-        }
-        img{
-            width: 50px;
-            height: 50px;
-        }
-        .me{
-            width: 20%;
-             height: auto;
-        }
-        .bt{
-            background-color: white;
-            color: teal;
-            font-size: 20px;
-            border: teal solid 1px;
-            border-radius: 10px;
-            width: 210px;
-            padding: 5px 10px;
-            margin: none;
-        }
-        .d1:hover .bt{background-color: rgb(33, 25, 97);}
-        .d1{
-            position: relative;
-            display: block;
-        }
-        .d2{
-            color: white;
-            position: absolute;
-            display: none;
-            background-color: rgb(75, 35, 112);
-            width: 200px;
-
-        }
-        .d1:hover .d2{display: block;
-        }
-        @media screen and (max-width: 500px) {
-            
-            body{
-                font-size: 10px;
-            }
-            h1{
-             font-size: 150%;
-            }
-            h2{
-            font-size: 120%;
-            }
-            h3{
-                font-size: 100%;
-            }
-            .pp{
-                font-size: 90%;
-            }
-            p{
-                font-size: 70%;
-            }
-            .me{
-                width: 50%; height: auto;
-            }
-            .d2{
-                width: 100px;
-            }
-            .bt{
-                width: 110px;
-                font-size: 70%;
-            }
-            img{
-            width: 30px;
-            height: 30px;
-        }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CV</h1>
+<div class="flex">
+
     
-    <div style="text-align: center;">
-    <img src="me.jpg" alt="my photo"  title="my friend's drawing"  title="i'll be watching"
-    class="me"
-    >
-    </div>
-    
-    <h1>Table of Contents</h1>
+    <div class="flex0">
+        
+        <div style="text-align: center;">
+            <img src="me.jpg" alt="my photo"  title="my friend's drawing"  title="i'll be watching"
+            class="me"
+            >
+        </div>
+        
+    <h3>Contents</h3>
     <a href="#personal" title="go to personal information">
         <p class="content">
             personal information
@@ -135,6 +40,10 @@
             contact info
         </p>    
     </a>
+</div>
+
+<div class="flex00">
+    <h1>CV</h1>
     <div id="personal">
         <h1>personal information</h1>
         <h3>Ayman saad Mahmoud</h3>
@@ -150,26 +59,26 @@
             </address>
         </p>
     </div>
-
+    
     <div id="career">
-    <h1>career goals </h1>
-    <p>The main goals of the next five years are:</p>
-    <ul>
-        <li>Having the bachelor degree in communication and electronics </li>
-        <li>Determining the field that is more suitable for me</li>
-        <li>Having the required courses to be more experienced in the chosen field</li>
-        <li>Having some field experiene by having a training</li>
-    </ul>
-    </div>
-
-    <div id="skills">
-        <h1>Skills</h1>
+        <h1>career goals </h1>
+        <p>The main goals of the next five years are:</p>
         <ul>
-            <li >moderate english skills</li>
-            <li >moderate programming skills in C language</li>
-            <li >little HTML and CSS writing skills</li>
+            <li>Having the bachelor degree in communication and electronics </li>
+            <li>Determining the field that is more suitable for me</li>
+            <li>Having the required courses to be more experienced in the chosen field</li>
+            <li>Having some field experiene by having a training</li>
         </ul>
     </div>
+    
+    <div id="skills">
+    <h1>Skills</h1>
+    <ul>
+        <li >moderate english skills</li>
+        <li >moderate programming skills in C language</li>
+        <li >little HTML and CSS writing skills</li>
+    </ul>
+</div>
 
     <div id="contact">
         <h3>contact info</h3>
@@ -183,20 +92,22 @@
                 </address></p>
             </div>
             <br><br>
-          </div>
+        </div>
         <a href="https://www.facebook.com/profile.php?id=100008510432581" target="_blank">
-        <img src="facebook logo.png" alt="facebook logo" title="click to open my facebook page">
-    </a>
-    
-    <a href="https://github.com/ACE30801" target="_blank">
-        <img src="github icon.png" alt="github icon">
-    </a>
-    <div>
-        <p>send me an e-mail</p>
-        <a href="mailto: elshaer118@gmail.com" target="_blank">
-            <img src="gmail.png" alt="gmail icon" title="send me email">
+            <img src="facebook logo.png" alt="facebook logo" title="click to open my facebook page">
         </a>
+        
+        <a href="https://github.com/ACE30801" target="_blank">
+            <img src="github icon.png" alt="github icon">
+        </a>
+        <div>
+            <p>send me an e-mail</p>
+            <a href="mailto: elshaer118@gmail.com" target="_blank">
+                <img src="gmail.png" alt="gmail icon" title="send me email">
+            </a>
+        </div>
     </div>
-    </div>
+</div>
+</div>
 </body>
 </html>
